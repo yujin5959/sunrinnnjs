@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="세계로 미래로 꿈을 펼치는 선린인터넷고등학교"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/title"
+        android:bottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        android:textSize="35sp"
+        android:textColor="@android:color/background_dark"
+        android:gravity="center"
+        android:text="선린인터넷고등학교
+          대신 전해드립니다"
+        />
+    <TextView
+        android:id="@+id/Q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:text="당신의 학과는 어디인가요~?"
+        />
+    <Button
+        android:id="@+id/protect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/Q1"
+        android:background="#ff0000"
+        android:text="정보보호과"
+        android:textColor="#fff"
+        />
+    <Button
+        android:id="@+id/software"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/protect"
+        android:background="#ffff00"
+        android:text="소프트웨어과"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/software"
+        android:background="#000080"
+        android:text="콘텐츠디자인과"
+        android:textColor="#fff"
+        />
+    <Button
+        android:id="@+id/it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/design"
+        android:background="#008000"
+        android:text="IT경영과"
+        android:textColor="#fff"
+
+        />
+
+    <ImageView
+        android:id="@+id/cutejs"
+        android:layout_width="320dp"
+        android:layout_height="234dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/sunrinin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/it"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     app:layout_constraintTop_toBottomOf="@+id/cutejs"
+     android:text="Tell:02-713-6211"
+     android:textSize="20dp"
+     />
+</androidx.constraintlayout.widget.ConstraintLayout>

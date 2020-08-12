@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    tools:context=".sofrware1">
+
+    <TextView
+        android:id="@+id/sfttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="
+Department of Software"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/sftstitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sfttitle"
+        android:text="소프트웨어과"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/sft1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="IT 강국으로 이끌어갈 소프트웨어 개발 전문가 육성을 위하여 C++, JAVA, XML등의 프로그래밍 언어를 바탕으로 게임, 웹콘텐츠, 앱(App) 프로그램을 개발할 수 있는 핵심적인 능력을 기른다.
+프로그래밍(C, JAVA), 게임프로그래밍(C#, Unity), 웹프로그래밍(HTML, CSS, PHP, MySQL, Django, Python), 운영체제(Linux), 네트워크, 서버구축, 웹디자인 등을 배워 컴퓨터관련학과나
+공학계열, 경상계열로 진학할 수 있으며, 소프트웨어 개발전문가, 웹디자이너, 웹프로그래머, 웹마스터, 웹PD가 될 수 있다."
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/sftstitle"
+        tools:layout_editor_absoluteX="0dp"
+        />
+
+    <Button
+        android:id="@+id/group1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="Community"
+        android:textColor="#FFC107"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/sft1"
+        android:layout_marginTop="160dp"/>
+
+    <Button
+        android:id="@+id/club1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="동아리"
+        android:textColor="#FFC107"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/group1"
+        tools:ignore="MissingConstraints"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

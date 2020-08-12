@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient3"
+    tools:context=".design1">
+    <TextView
+        android:id="@+id/dtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Department of Content Design"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/dstitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtitle"
+        android:text="콘텐츠디자인과"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        tools:ignore="MissingConstraints"
+        />
+
+
+    <TextView
+        android:id="@+id/d1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="멀티미디어 전반에 대한 종합적이며 총체적인 이해력을 갖춘 컴퓨터그래픽 및 애니메이션, 디지털방송, 멀티미디어컨텐츠, 캐릭터, 영상편집 및 제작 등이 가능한 전문인력 육성하고
+
+멀티미디어일반, 프로그래밍, 프로그래밍 실무, 웹 프로그래밍, 데이터 베이스, 컴퓨터그래픽, 컴퓨터 음악, 컴퓨터 그래픽 실무, 컴퓨터 게임, 웹 디자인, 멀티미디어 디자인, 애니메이션 일반,
+
+애니메이션 실무, 3D 애니메이션, 영상연출, 디자인일반, 시각 기초 디자인, 디자인 실무, 조형, 색채관리을 배워
+
+IT관련학과, 미디어 학부, 컴퓨터 공학부, 디자인학부 등에 진학할 수 있으며, 영화, 영상제작자, 광고디자인, 사운드전문가, 웹 디자이너, 애니메이터, 게임제작자, 멀티미디어제작자가 될 수 있다."
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/dstitle"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/group2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="Community"
+        android:textColor="#1c92d2"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/d1"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/club2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="동아리"
+        android:textColor="#1c92d2"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/group2"
+        tools:ignore="MissingConstraints"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

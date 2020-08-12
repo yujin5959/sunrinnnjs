@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="163dp"
+        android:layout_height="147dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sunrin"
+        />
+
+    <EditText
+        android:id="@+id/login_id1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <Button
+        android:id="@+id/login_success"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="log in"
+        android:background="#fff"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="선린인터넷고등학교에 오신것을 환영합니다."
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:text="Log in with SunrininternetHighschool"
+        android:background="#000080">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        >
+
+        <TextView
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="sign id"
+            android:textColor="@android:color/background_light"
+            android:textSize="24dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="Find password"
+            android:textColor="@android:color/background_light"
+            android:textSize="24dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
