@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -23,15 +24,17 @@ public class MainActivity2 extends AppCompatActivity {
         mid1 = findViewById(R.id.login_id1);
         mpassword = findViewById(R.id.login_password);
 
-
         Button btn1 = findViewById(R.id.login_success);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "로그인 성공", Toast.LENGTH_SHORT).show();
+                finish();
                 Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(intent);
             }
         });
+
     }
 
 
