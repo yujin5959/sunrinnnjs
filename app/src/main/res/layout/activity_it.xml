@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:background="#ffffff"
         android:text="Community"
-        android:textColor="#34e89e"
+        android:textColor="#0B975D"
         android:textSize="20dp"
         app:layout_constraintTop_toBottomOf="@id/it1"
         android:layout_marginTop="188dp"/>
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:background="#ffffff"
         android:text="동아리"
-        android:textColor="#34e89e"
+        android:textColor="#0B975D"
         android:textSize="20dp"
         app:layout_constraintTop_toBottomOf="@+id/group3"
         tools:ignore="MissingConstraints"
