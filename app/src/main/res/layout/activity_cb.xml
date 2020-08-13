@@ -42,46 +42,13 @@
         app:layout_constraintTop_toBottomOf="@+id/pt1"
         tools:ignore="MissingConstraints" />
 
-    <ListView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler1"
         android:scrollbars="vertical"
         app:layout_constraintTop_toBottomOf="@id/ptcstitle"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#000"/>
-    <TextView
-        android:id="@+id/pt2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:text="Layer 7 : 해킹동아리이고 OSI 7계층을 모델로 따서 각 계층별로 목표설정, 마지막 최상위층에는 창업이 목표였다."
-        app:layout_constraintTop_toBottomOf="@id/recycler1"
-        android:textColor="#ffffff"
-        android:textSize="20dp"
+        android:layout_height="500dp"
 
-        />
+  />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:textColor="#ffffff"
-        android:text="Nefus : 네트워크 동아리, 유학반 동아리이며 2016년 IoT동아리로 변경됨."
-        app:layout_constraintTop_toBottomOf="@id/pt2"
-        android:textSize="20dp"
-        android:id="@+id/pt3"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:text="Nefus : 네트워크 동아리, 유학반 동아리이며 2016년 IoT동아리로 변경됨."
-        app:layout_constraintTop_toBottomOf="@id/pt2"
-        android:textColor="#ffffff"
-        android:textSize="20dp"
-        />
 </androidx.constraintlayout.widget.ConstraintLayout>
