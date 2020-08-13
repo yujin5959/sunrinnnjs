@@ -28,7 +28,7 @@ public class cb extends AppCompatActivity {
         listview1.setLayoutManager(new LinearLayoutManager(this)) ;
 
         data.add("Layer 7 : 해킹동아리이고 OSI 7계층을 모델로 따서 각 계층별로 목표설정, 마지막 최상위층에는 창업이 목표였다.");
-        data.add("Layer 1 : 해킹동아리이고 OSI 7계층을 모델로 따서 각 계층별로 목표설정, 마지막 최상위층에는 창업이 목표였다.");
+        data.add("Layer 22 : 해킹동아리이고 OSI 7계층을 모델로 따서 각 계층별로 목표설정, 마지막 최상위층에는 창업이 목표였다.");
 
         item = new itemadapter(data);
         listview1.setAdapter(item);
