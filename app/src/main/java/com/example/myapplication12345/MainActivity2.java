@@ -28,6 +28,7 @@ public class MainActivity2 extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Toast.makeText(getApplicationContext(), "로그인 성공", Toast.LENGTH_SHORT).show();
                 finish();
                 Intent intent = new Intent(getApplicationContext(),MainActivity.class);
