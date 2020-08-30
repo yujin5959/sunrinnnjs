@@ -36,7 +36,7 @@ public class itemadapter extends RecyclerView.Adapter<itemadapter.ViewHolder> {
         Context context = parent.getContext() ;
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) ;
 
-        View view = inflater.inflate(R.layout.protect_listitem, null, false) ;
+        View view = inflater.inflate(R.layout.listitem, null, false) ;
         itemadapter.ViewHolder vh = new itemadapter.ViewHolder(view) ;
 
         return vh ;

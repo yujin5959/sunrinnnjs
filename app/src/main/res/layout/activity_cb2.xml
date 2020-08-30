@@ -16,6 +16,13 @@
         tools:ignore="MissingConstraints"
         />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler3"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@id/ptcstitle"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        />
 
     <TextView
 

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/gradient1"
+
     >
 
     <TextView
@@ -13,8 +13,8 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:text="LOGIN"
-        android:textColor="#fff"
-        android:textSize="20dp" />
+        android:textColor="#000000"
+        android:textSize="30dp" />
 
     <ImageView
         android:layout_width="163dp"
@@ -24,17 +24,20 @@
         />
 
     <EditText
-        android:id="@+id/login_id1"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"/>
-
-    <EditText
-        android:id="@+id/login_password"
+        android:id="@+id/main_email"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:id="@+id/main_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="password"
         />
     <Button
-        android:id="@+id/login_success"
+        android:id="@+id/main_login_btn"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="log in"
@@ -51,8 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:textColor="#fff"
-        android:text="Log in with SunrininternetHighschool"
-        android:background="#000080">
+        android:text="Log in with SunrininternetHighschool">
     </Button>
 
     <LinearLayout
@@ -61,27 +63,5 @@
         android:orientation="horizontal"
         android:layout_weight="10"
         >
-
-        <TextView
-            android:layout_width="243dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="5"
-            android:gravity="center"
-            android:text="sign id"
-            android:textColor="@android:color/background_light"
-            android:textSize="24dp">
-
-        </TextView>
-
-        <TextView
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="5"
-            android:gravity="center"
-            android:text="Find password"
-            android:textColor="@android:color/background_light"
-            android:textSize="24dp" />
-
-
     </LinearLayout>
 </LinearLayout>

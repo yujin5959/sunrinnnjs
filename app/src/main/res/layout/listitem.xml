@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <TextView
         android:id="@+id/pt2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Layer 7 : 해킹동아리이고 OSI 7계층을 모델로 따서 각 계층별로 목표설정, 마지막 최상위층에는 창업이 목표였다."
         android:textColor="#000"
         android:textSize="20dp"
         tools:ignore="MissingConstraints" />

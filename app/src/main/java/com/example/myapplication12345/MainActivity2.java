@@ -12,19 +12,12 @@ import android.widget.Toast;
 
 public class MainActivity2 extends AppCompatActivity {
 
-    private EditText mid1,mpassword;
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mid1 = findViewById(R.id.login_id1);
-        mpassword = findViewById(R.id.login_password);
-
-        Button btn1 = findViewById(R.id.login_success);
+        Button btn1 = findViewById(R.id.main_login_btn);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
