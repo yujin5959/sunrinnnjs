@@ -10,8 +10,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity2 extends AppCompatActivity {
+import com.google.firebase.auth.FirebaseAuth;
 
+public class MainActivity2 extends AppCompatActivity {
+    private Button join;
+    private Button login;
+    private EditText email_login;
+    private EditText pwd_login;
+    FirebaseAuth firebaseAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
